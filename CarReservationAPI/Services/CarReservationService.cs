@@ -51,5 +51,10 @@ namespace CarReservationAPI.Services
         {
             throw new NotImplementedException();
         }
+
+        Task<IEnumerable<Car>> ICarReservationService.FindAvailableCar(DateTime time, TimeSpan duration)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
