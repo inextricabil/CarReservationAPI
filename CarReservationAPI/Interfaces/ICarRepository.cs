@@ -8,5 +8,6 @@ namespace CarReservationAPI.Interfaces
         Task<Car> AddAsync(Car car);
         Task<Car> UpdateAsync(Car car);
         Task<bool> DeleteAsync(int id);
+        Task<Car> FindAsync(DateTime startDate, DateTime endDate);
     }
 }

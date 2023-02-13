@@ -13,9 +13,9 @@ namespace CarReservationAPI.Services
             _carRepository = carRepository;
         }
 
-        public async Task<IEnumerable<Car>> GetAllAsync(DateTime startTime, DateTime endTime)
+        public async Task<Car> FindAsync(DateTime startTime, DateTime endTime)
         {
-            return await _carRepository.FindAsync()
+            return await _carRepository.FindAsync(startTime, endTime);
         }
 
         public async Task<IEnumerable<Car>> GetAllAsync()
@@ -40,5 +40,9 @@ namespace CarReservationAPI.Services
             return await _carRepository.DeleteAsync(id);
         }
 
+        public Task<IEnumerable<Car>> GetAllAsyncFindAsync(DateTime startTime, DateTime endTime)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -28,10 +28,12 @@ namespace CarReservationAPI.Repositories
 
         public async Task<Car> FindAsync(DateTime startDate, DateTime endDate)
         {
-            var result = await FindAsync(predicate);
-            await Context.SaveChangesAsync();
-            var updatedCar = await GetAsync(car.Id);
-            return updatedCar;
+            return null;
+            //WIP
+            //var result = await FindAsync(predicate);
+            //await Context.SaveChangesAsync();
+            //var updatedCar = await GetAsync(car.Id);
+            //return updatedCar;
         }
 
         public async Task<bool> DeleteAsync(int id)

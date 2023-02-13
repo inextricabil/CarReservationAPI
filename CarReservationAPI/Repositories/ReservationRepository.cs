@@ -10,11 +10,12 @@ namespace CarReservationAPI.Repositories
         {
         }
 
-        public async Task<Car> Getsync(DateTime startDate, DateTime endDate)
+        public async Task<Car> GetAsync(DateTime startDate, DateTime endDate)
         {
+            //WIP
             //var predicate = (Reservation r) => startDate > r.EndTime || (startDate < r.StartTime && endDate < r.StartTime);
-            Expression<Func<Reservation, bool>> genericMap = Expression<Reservation, Car>(r => r.StartDate == startDate && r.EndDate == endDate);
-            var result = await FindAsync(predicate);
+            //Expression<Func<Reservation, bool>> genericMap = Expression<Reservation, Car>(r => r.StartDate == startDate && r.EndDate == endDate);
+            //var result = await FindAsync(predicate);
 
 
             return null;
