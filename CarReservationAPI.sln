@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarReservationAPI", "CarReservationAPI\CarReservationAPI.csproj", "{31A8D421-70C7-4204-9299-DEF523C4B5EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarReservationTests", "CarReservationTests\CarReservationTests.csproj", "{17797512-B254-4976-9D50-939AC9560B21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31A8D421-70C7-4204-9299-DEF523C4B5EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31A8D421-70C7-4204-9299-DEF523C4B5EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31A8D421-70C7-4204-9299-DEF523C4B5EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31A8D421-70C7-4204-9299-DEF523C4B5EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17797512-B254-4976-9D50-939AC9560B21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17797512-B254-4976-9D50-939AC9560B21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17797512-B254-4976-9D50-939AC9560B21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17797512-B254-4976-9D50-939AC9560B21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5FF21119-115C-44CC-B7AF-18B23E00095B}
+	EndGlobalSection
+EndGlobal
